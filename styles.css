@@ -1,0 +1,104 @@
+body {
+  background-color: #2F7DC9;
+}
+.card {
+  position: relative;
+  width: 350px;
+  height: 600px;
+  background-color: #1C1F22;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+ul {
+  position: absolute;
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,0));
+  width: 100%;
+  top: -17px;
+  height: 40px;
+}
+li {
+  display: inline;
+  color: white;
+  padding: 0 7px;
+}
+li .left {
+  position: relative;
+  right: 25px;
+  top: 8px;
+}
+li .right {
+  position: relative;
+  left: 210px;
+  top: 8px;
+}
+.ion-android-checkbox-outline {
+  color: #2F7DC9;
+  vertical-align: middle;
+}
+.article-img {
+  height: 200px;
+  width: 350px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(28, 31, 34, 1) 100%), url('http://www.trbimg.com/img-552a29ae/turbine/la-fg-pope-armenian-pictures-20150412/600/600x338');
+  background-size: cover;
+}
+.title {
+  margin: 0 0 0 20px;
+}
+.add-premium {
+  background-color: #3399ff;
+  padding: 0 5px;
+}
+h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 10px 0 5px 0;
+}
+h1 {
+  color: white;
+  margin: 15px 0 5px 0;
+}
+h3 {
+  color: #8E8E91;
+  font-family: sans-serif;
+  font-size: 9px;
+  line-height: 5px;
+  text-transform: uppercase;
+}
+.sub-heading {
+  margin: 20px 0 30px 0;
+}
+.article-tags {
+  padding: 20px 20px 0 20px;
+  height: 40px;
+  border-top: 1px solid gray;
+}
+.article-tag {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #D0756D;
+  border: 1px solid #D0756D;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 40px 0 5px 0;
+}
+.text {
+  background-color: white;
+  padding: 1px 0 15px 24px;
+}
+p {
+  line-height: 25px;
+}
+.first-letter {
+  float: left;
+  font-size: 50px;
+  font-weight: heavier;
+  padding: 0 2px 0 0;
+  position: relative;
+  top: 11px;
+  right: 0;
+}
