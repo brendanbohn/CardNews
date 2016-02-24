@@ -1,16 +1,53 @@
 body {
   background-color: #2F7DC9;
+  margin: 0;
+}
+nav {
+  height: 50px;
+  background-color: #1C1F22;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav ul {
+  display: inline;
+  float: right;
+  margin: 15px 25px 0 0;
+}
+nav li {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+nav a {
+  text-decoration: none;
+  color: gray;
+}
+nav a:hover {
+  color: white;
+}
+#site-name {
+  color: gray;
+  font-family: sans-serif;
+  position: fixed;
+  top: 10px;
+  left: 25px;
+  border: 1px solid #D0756D;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+#news-stream {
+  margin: 0 auto;
+  width: 1000px;
 }
 .card {
   position: relative;
-  width: 350px;
-  height: 600px;
+  width: 200px;
+  height: 400px;
+  float: left;
+  margin: 20px 20px;
   background-color: #1C1F22;
-  margin: 20px auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: hidden;
 }
-ul {
+.card ul {
   position: absolute;
   background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,0));
   width: 100%;
@@ -22,23 +59,18 @@ li {
   color: white;
   padding: 0 7px;
 }
-li .left {
-  position: relative;
-  right: 25px;
-  top: 8px;
-}
 li .right {
   position: relative;
-  left: 210px;
-  top: 8px;
+  left: 245px;
+  top: 15px;
 }
 .ion-android-checkbox-outline {
   color: #2F7DC9;
   vertical-align: middle;
 }
 .article-img {
-  height: 200px;
-  width: 350px;
+  height: 100px;
+  width: 200px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(28, 31, 34, 1) 100%), url('http://www.trbimg.com/img-552a29ae/turbine/la-fg-pope-armenian-pictures-20150412/600/600x338');
   background-size: cover;
 }
@@ -52,34 +84,36 @@ li .right {
 h2 {
   color: white;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
   font-family: sans-serif;
   font-weight: lighter;
-  margin: 10px 0 5px 0;
+  margin: 15px 0 5px 0;
 }
 h1 {
+  font-size: 16px;
   color: white;
   margin: 15px 0 5px 0;
+  padding: 0 15px 0 0;
 }
 h3 {
   color: #8E8E91;
   font-family: sans-serif;
-  font-size: 9px;
+  font-size: 8px;
   line-height: 5px;
   text-transform: uppercase;
 }
 .sub-heading {
-  margin: 20px 0 30px 0;
+  margin: 20px 0 20px 0;
 }
 .article-tags {
-  padding: 20px 20px 0 20px;
-  height: 40px;
+  padding: 10px 20px;
+  height: 25px;
   border-top: 1px solid gray;
 }
 .article-tag {
   font-family: sans-serif;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 8px;
   color: #D0756D;
   border: 1px solid #D0756D;
   border-radius: 15px;
@@ -88,14 +122,16 @@ h3 {
 }
 .text {
   background-color: white;
-  padding: 1px 0 15px 24px;
+  padding: 1px 15px 15px 24px;
+  height: 200px;
 }
 p {
-  line-height: 25px;
+  font-size: 12px;
+  line-height: 21px;
 }
 .first-letter {
   float: left;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: heavier;
   padding: 0 2px 0 0;
   position: relative;
