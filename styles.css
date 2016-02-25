@@ -6,11 +6,15 @@ nav {
   height: 50px;
   background-color: #1C1F22;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
 }
 nav ul {
   display: inline;
   float: right;
-  margin: 15px 25px 0 0;
+  margin: 15px 133px 0 0;
 }
 nav li {
   font-family: sans-serif;
@@ -28,13 +32,38 @@ nav a:hover {
   font-family: sans-serif;
   position: fixed;
   top: 10px;
-  left: 25px;
+  left: 100px;
   border: 1px solid #D0756D;
   border-radius: 10px;
   padding: 5px 10px;
 }
+#header {
+  margin: 80px auto 0 auto;
+  width: 500px;
+  height: 125px;
+  background-color: #1C1F22;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#header h1 {
+  margin: -10px 0 0 0;
+  text-align: center;
+  color: white;
+}
+#header h2 {
+  padding: 15px 0 0 0;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  color: gray;
+  font-size: 18px;
+}
+#header p {
+  text-align: center;
+  color: #2F7DC9;
+  cursor: pointer;
+}
 #news-stream {
-  margin: 30px auto;
+  margin: 20px auto;
   width: 1000px;
 }
 .card {
@@ -42,14 +71,15 @@ nav a:hover {
   width: 200px;
   height: 400px;
   float: left;
-  margin: 20px 20px;
+  margin: 20px 24px;
   background-color: #1C1F22;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: hidden;
+  cursor: pointer;
 }
 .card ul {
   position: absolute;
-  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,0));
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0));
   width: 100%;
   top: -17px;
   height: 40px;
@@ -74,6 +104,12 @@ li .right {
   /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(28, 31, 34, 1) 100%), url('http://www.trbimg.com/img-552a29ae/turbine/la-fg-pope-armenian-pictures-20150412/600/600x338');*/
   background-size: cover;
 }
+/*.title-area {
+  margin-top: -50px;
+  z-index: 9;
+  background: linear-gradient(to bottom, rgba(28, 31, 34, 0) 0%, rgba(28, 31, 34, .5) 10%, rgba(28, 31, 34, 1) 20%);
+  min-height: 100px;
+}*/
 .title {
   margin: 0 0 0 20px;
 }
@@ -81,7 +117,7 @@ li .right {
   background-color: #3399ff;
   padding: 0 5px;
 }
-h2 {
+.title h2 {
   color: white;
   text-transform: uppercase;
   font-size: 10px;
@@ -89,13 +125,14 @@ h2 {
   font-weight: lighter;
   margin: 15px 0 5px 0;
 }
-h1 {
+.title h1 {
   font-size: 16px;
   color: white;
   margin: 15px 0 5px 0;
   padding: 0 15px 0 0;
+  min-height: 70px;
 }
-h3 {
+.title h3 {
   color: #8E8E91;
   font-family: sans-serif;
   font-size: 8px;
@@ -109,7 +146,6 @@ h3 {
   padding: 10px 20px;
   height: 25px;
   border-top: 1px solid gray;
-  margin-left: -20px;
 }
 .article-tag {
   font-family: sans-serif;
@@ -125,13 +161,14 @@ h3 {
   background-color: white;
   padding: 1px 15px 15px 24px;
   height: 200px;
-  margin: 0 0 0 -20px;
+  margin: 0 0 0 0;
 }
 p {
   font-size: 12px;
   line-height: 21px;
+  color: black;
 }
-.first-letter {
+/*.first-letter {
   float: left;
   font-size: 40px;
   font-weight: heavier;
@@ -139,4 +176,12 @@ p {
   position: relative;
   top: 11px;
   right: 0;
+}*/
+#coming-soon h1 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 100px;
+  margin: 100px auto;
+  text-align: center;
 }
