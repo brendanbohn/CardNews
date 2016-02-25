@@ -34,7 +34,7 @@ nav a:hover {
   padding: 5px 10px;
 }
 #news-stream {
-  margin: 0 auto;
+  margin: 30px auto;
   width: 1000px;
 }
 .card {
@@ -71,7 +71,7 @@ li .right {
 .article-img {
   height: 100px;
   width: 200px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(28, 31, 34, 1) 100%), url('http://www.trbimg.com/img-552a29ae/turbine/la-fg-pope-armenian-pictures-20150412/600/600x338');
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(28, 31, 34, 1) 100%), url('http://www.trbimg.com/img-552a29ae/turbine/la-fg-pope-armenian-pictures-20150412/600/600x338');*/
   background-size: cover;
 }
 .title {
@@ -109,6 +109,7 @@ h3 {
   padding: 10px 20px;
   height: 25px;
   border-top: 1px solid gray;
+  margin-left: -20px;
 }
 .article-tag {
   font-family: sans-serif;
@@ -124,6 +125,7 @@ h3 {
   background-color: white;
   padding: 1px 15px 15px 24px;
   height: 200px;
+  margin: 0 0 0 -20px;
 }
 p {
   font-size: 12px;
